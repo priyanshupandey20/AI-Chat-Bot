@@ -321,10 +321,10 @@ $deta = date('Y-m-d H:i:s');
 // DATABASE CONNECTION SETUP
 // #################################################
 
-$servername = "sql104.infinityfree.com";
-$username = "if0_36122071";
-$password = "uyqSEIvaqxIqE6e";
-$dbname = "if0_36122071_webpublic"; 
+$servername = "";
+$username = "";
+$password = "";
+$dbname = ""; 
 
 // Establish connection to the database
 $conn = mysqli_connect($servername, $username, $password, $dbname);
